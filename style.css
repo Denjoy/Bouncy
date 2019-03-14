@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Sniglet',cursive;
+	background-image: url(images/background.jpg);
+}
+header{
+	width: 100%;
+	background-color: rgba(0,0,0,0.5); 
+	display: flex;
+}
+.header_logo{
+	text-transform: uppercase;
+	color:#fff;
+	font-weight: 800;
+	font-size:24px;
+	cursor: pointer;
+	margin-top: 34px;
+	margin-left: 12%;
+}
+nav{
+	margin-top: 34px;
+	margin-left: 25%;
+}
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.topnav a:hover{
+	border-bottom: 3px solid #fed45f;
+}
+.topnav .icon{
+	display: none;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+main .main_welcome{
+	text-align: center;
+	padding: 200px 0 400px 0;
+}
+main .main_welcome p{
+	color: #fff;
+	font-size: 16px;
+}
+main .main_welcome h1{
+	color: #fff;
+	font-size: 24px;
+}
+main .button_bot{
+	padding-top: 300px;
+}
+main .wrapper{
+	background-color: rgb(255,255,255);
+}
+.wrapper{
+	margin:0 auto;
+}
+main .main_about{
+	display:flex;
+	width: 75%;
+	margin-left: 15%;
+	padding: 100px 0 100px 0;
+}
+.about_right{
+	margin-left: 175px;
+}
+.about_left p{
+	margin: 30px 0 50px 0;
+	color: #6c6c6c;
+}
+.about_left h1{
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+
+
+@media only screen and(max-width: 1024px){
+	nav{
+	margin-top: 34px;
+	margin-left: 15%;
+	}
+}
+
+
