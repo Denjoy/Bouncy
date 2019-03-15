@@ -8,9 +8,13 @@ a{
 li{
 	list-style: none;
 }
+h1{
+	padding-bottom: 20px;
+}
 body{
-	font-family: 'Sniglet',cursive;
-	background-image: url(images/background.jpg);
+	font-family: 'Quicksand', sans-serif;
+	background: url(images/background.jpg);
+	background-size: 100%;
 }
 header{
 	width: 100%;
@@ -28,7 +32,7 @@ header{
 }
 nav{
 	margin-top: 34px;
-	margin-left: 25%;
+	margin-left: 40%;
 }
 .topnav a{
 	color: #fff;
@@ -51,18 +55,16 @@ main{
 }
 main .main_welcome{
 	text-align: center;
-	padding: 200px 0 400px 0;
+	padding: 200px 0 195px 0;
 }
 main .main_welcome p{
 	color: #fff;
 	font-size: 16px;
+	padding-bottom: 200px;
 }
 main .main_welcome h1{
 	color: #fff;
 	font-size: 24px;
-}
-main .button_bot{
-	padding-top: 300px;
 }
 main .wrapper{
 	background-color: rgb(255,255,255);
@@ -73,20 +75,87 @@ main .wrapper{
 main .main_about{
 	display:flex;
 	width: 75%;
-	margin-left: 15%;
+	margin-left: 20%;
 	padding: 100px 0 100px 0;
 }
-.about_right{
-	margin-left: 175px;
+.about_left{
+	width: 40%;
 }
 .about_left p{
 	margin: 30px 0 50px 0;
-	color: #6c6c6c;
+	color: #6c6c6c;	
 }
-.about_left h1{
+.about_left h2{
 	display: inline-block;
-	padding-bottom: 20px;
+	font-size: 20px;
 }
+.about_right{
+	margin-left: 20%;
+}
+.main_about_details{
+	padding: 80px 0 65px 0;
+	background: #f3f3f3;
+	display: :flex;
+}
+.about_top{
+	flex-direction: column;
+	text-align: center;
+}
+.about_top p{
+	padding-bottom: 40px;
+}
+.details_button{
+	margin:0px auto;
+	padding-bottom: 30px;
+}
+.details_button img{
+	margin: 15px;
+}
+.about_bottom{
+	display: flex;
+	width: 75%;
+	margin-left: 10%;
+}
+.about_bottom h2{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.about_bottom p{
+	font-size: 14px;
+}
+.right_side{
+	margin-left: 20%;
+	margin-top: 35px; 
+}
+.main_featured{
+	padding-top: 80px;
+	background: #fff;
+}
+.featured_top{
+	flex-direction: column;
+	text-align: center;
+}
+.featured_top p{
+	padding-bottom: 40px;
+}
+.featured_bottom{
+	text-align: center;
+}
+.featured_footer{
+	display: flex;
+	background: url(images/featured/footer.png);
+	height: 110px;
+	color: #fff;
+}
+.featured_footer p{
+	padding-top: 50px;
+	padding-left: 10%;
+}
+.featured_footer a{
+	padding-top: 40px;
+	padding-left: 40%;
+}
+
 
 
 
