@@ -9,7 +9,15 @@ li{
 	list-style: none;
 }
 h1{
-	padding-bottom: 20px;
+	padding-bottom: 25px;
+	color: #000;
+}
+h2{
+	padding-bottom: 25px;
+	color: #000;
+}
+p{
+	padding-bottom: 25px;
 }
 body{
 	font-family: 'Quicksand', sans-serif;
@@ -96,6 +104,7 @@ main .main_about{
 	padding: 80px 0 65px 0;
 	background: #f3f3f3;
 	display: :flex;
+	color: #8d8e8e;
 }
 .about_top{
 	flex-direction: column;
@@ -105,7 +114,7 @@ main .main_about{
 	padding-bottom: 40px;
 }
 .details_button{
-	margin:0px auto;
+	margin: 0px auto;
 	padding-bottom: 30px;
 }
 .details_button img{
@@ -130,6 +139,7 @@ main .main_about{
 .main_featured{
 	padding-top: 80px;
 	background: #fff;
+	color: #8d8e8e;
 }
 .featured_top{
 	flex-direction: column;
@@ -155,8 +165,97 @@ main .main_about{
 	padding-top: 40px;
 	padding-left: 40%;
 }
-
-
+.main_services{
+	padding: 80px 0 0 0;
+	background: #fff;
+	color: #8d8e8e;
+}
+.services_top{
+	flex-direction: column;
+	text-align: center;
+	margin:0 10% 0 10%; 
+}
+.services_title p{
+	padding-bottom: 20px;
+}
+.services_information{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 20px auto;
+}
+.services_menu{
+	display: grid;
+	grid-template-columns: auto;
+	margin: 20px auto;
+}
+.services_menu img{
+	margin: 15px 0 15px 0;
+}
+.services_description{
+	width:60%;
+	margin: 30px 0px 0 50px;
+}
+.services_description h2{
+	padding-bottom: 15px;
+}
+.services_description p{
+	padding: 20px 0 20px 0;
+}
+.services_values{
+	margin: 90px 70px 0 0;
+}
+.services_bottom{
+	padding: 80px 8% 0 8%;
+	background: url(images/services/services_background.png) no-repeat;
+	background-size: 100%;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.services_bottom h2{
+	font-size: 20px;
+	color: #8d8e8e;
+}
+.services_left span{
+	color: #1aa687;
+}
+.services_right{
+	display: flex;
+    margin-top: -210px;
+}
+.main_portfolio{
+	padding-top: 80px;
+	flex-direction: column;
+	text-align: center;
+	background: #fff;
+}
+.portfolio_title{
+	margin: 0 20% 0 20%;
+}
+.portfolio_title p {
+	padding-bottom: 60px;
+}
+.portfolio_menu{
+	margin-bottom: 40px;
+}
+.portfolio_menu a{
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #8d8e8e;
+}
+.portfolio_menu a:hover{
+	border-bottom: 3px solid #fed45f;
+}
+.portfolio_work{
+	margin: 10px 15%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto; 
+}
+.portfolio_work img{
+	margin: 10px;
+}
 
 
 @media only screen and(max-width: 1024px){
