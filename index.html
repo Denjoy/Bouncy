@@ -11,11 +11,11 @@
 		<div class="header_logo"><p>BOUNCY</p></div>
 		<nav>
 			 <div class="topnav" id="myTopnav">
-			 	<a href="">Hello</a>
-			 	<a href="">About</a>
-			 	<a href="">Service</a>
-			 	<a href="">Portfolio</a>
-			 	<a href="">Team</a>
+			 	<a href="#welcome">Hello</a>
+			 	<a href="#about">About</a>
+			 	<a href="#services">Services</a>
+			 	<a href="#portfolio">Portfolio</a>
+			 	<a href="#team">Team</a>
 			 	<a href="">Blog</a>
 			 	<a href="">Contact</a>
 			 	<a href="" id="menu" class="icon">&#9776;</a>
@@ -23,13 +23,13 @@
 		</nav>
 	</header>
 	<main>
-		<div class="main_welcome">
+		<div class="main_welcome" id="welcome">
 			<h1>Welcome part</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua.</p>
-			<a href="" class="button_bot"><img src="images/button_bot.png"></a>
+			<a href="#about" class="button_bot"><img src="images/bot_button.png"></a>
 		</div>
-		<div class="wrapper">
+		<div class="wrapper" id="about">
 			<div class="main_about">
 				<div class="about_left">
 					<h2>THIS IS BOUNCY</h2>
@@ -41,7 +41,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="main_about_details">
+		<div class="main_about_details" id="details">
 			<div class="about_top">
 				<h1>Details about bouncy</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -71,7 +71,6 @@
 			</div>
 		</div>
 		<div class="main_featured">
-			<div class="wrapper">
 				<div class="featured_top">
 					<h1>FEATURED PROJECTS</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -88,8 +87,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="main_services">
-			<div class="wrapper">
+		<div class="main_services" id="services">
 				<div class="services_top">
 					<div class="services_title">
 						<h1>OUR SERVICES</h1>
@@ -125,7 +123,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="main_portfolio">
+		<div class="main_portfolio" id="portfolio">
 			<div class="portfolio_title">
 				<h1>THE PORTFOLIO</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit saepe perferendis eligendi. Maxime perspiciatis aliquid inventore libero, consequuntur possimus quos? Illum repellat, voluptas libero nobis fuga totam laboriosam dignissimos dolores!</p>
@@ -140,24 +138,131 @@
 				<a href="">Wordpress</a>
 			</div>
 			<div class="portfolio_work">	
-			<img src="images/portfolio/1.png" alt="">
-			<img src="images/portfolio/4.png" alt="">
-			<img src="images/portfolio/7.png" alt="">
-			<img src="images/portfolio/10.png" alt="">
-			<img src="images/portfolio/2.png" alt="">
-			<img src="images/portfolio/5.png" alt="">
-			<img src="images/portfolio/8.png" alt="">
-			<img src="images/portfolio/11.png" alt="">
-			<img src="images/portfolio/3.png" alt="">
-			<img src="images/portfolio/6.png" alt="">
-			<img src="images/portfolio/9.png" alt="">
-			<img src="images/portfolio/12.png" alt="">
+				<img src="images/portfolio/1.png" alt="">
+				<img src="images/portfolio/4.png" alt="">
+				<img src="images/portfolio/7.png" alt="">
+				<img src="images/portfolio/10.png" alt="">
+				<img src="images/portfolio/2.png" alt="">
+				<img src="images/portfolio/5.png" alt="">
+				<img src="images/portfolio/8.png" alt="">
+				<img src="images/portfolio/11.png" alt="">
+				<img src="images/portfolio/3.png" alt="">
+				<img src="images/portfolio/6.png" alt="">
+				<img src="images/portfolio/9.png" alt="">
+				<img src="images/portfolio/12.png" alt="">
 			</div>
 			<div class="portfolio_footer">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatem fuga illum praesentium ab incidunt beatae commodi dolorum itaque tempore blanditiis, error iure. Minus voluptates recusandae dolorem, alias quae culpa.</p>
-				<a href=""><img src="" alt=""></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatem fuga illum praesentium ab incidunt beatae commodi dolorum itaque tempore blanditiis, error iure.</p>
+				<a href=""><img src="images/portfolio/project_button.png" alt=""></a>
 			</div>
 		</div>
+		<div class="main_team" id="team">
+			<div class="team_title">
+				<h1>THE TEAM</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus maiores facere ipsam similique, aspernatur laboriosam rerum molestias aperiam quae accusantium fugiat ea commodi.</p>
+			</div>
+			<div class="team_information">
+				<div class="team_slider-container">
+					<div class="team_slider_info fade">
+						<img src="images/team/team_member.png" alt="">
+						<div class="team_information">
+							<h2 align="right">Abdullah Noman</h2>
+							<h3 align="right">CREATIVE DIRECTOR, CODE CAFE</h3>
+							<p align="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae velit commodi iste cum. Optio dolor velit atque, repudiandae eveniet sequi eligendi itaque quisquam nesciunt? Architecto dicta, dolor error rem.</p>
+							<div class="skill">
+								<p align="left">BRANDING</p>
+								<p align="right">80%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill1">|</div>
+							</div>
+							<div class="skill">
+								<p align="left">WEB DESIGN</p>
+								<p align="right">65%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill2">|</div>
+							</div>
+							<div class="skill">
+								<p align="left">USER INTERFACE</p>
+								<p align="right">75%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill3">|</div>
+							</div>
+						</div>
+					</div>
+					<div class="team_slider_info fade">
+						<img src="images/team/team_member.png" alt="">
+						<div class="team_information">
+							<h2 align="right">Abdullah Noman</h2>
+							<h3 align="right">CREATIVE DIRECTOR, CODE CAFE</h3>
+							<p align="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae velit commodi iste cum. Optio dolor velit atque, repudiandae eveniet sequi eligendi itaque quisquam nesciunt? Architecto dicta, dolor error rem.</p>
+							<div class="skill">
+								<p align="left">BRANDING</p>
+								<p align="right">80%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill1">|</div>
+							</div>
+							<div class="skill">
+								<p align="left">WEB DESIGN</p>
+								<p align="right">65%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill2">|</div>
+							</div>
+							<div class="skill">
+								<p align="left">USER INTERFACE</p>
+								<p align="right">75%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill3">|</div>
+							</div>
+						</div>
+					</div>
+					<div class="team_slider_info fade">
+						<img src="images/team/team_member.png" alt="">
+						<div class="team_information">
+							<h2 align="right">Abdullah Noman</h2>
+							<h3 align="right">CREATIVE DIRECTOR, CODE CAFE</h3>
+							<p align="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae velit commodi iste cum. Optio dolor velit atque, repudiandae eveniet sequi eligendi itaque quisquam nesciunt? Architecto dicta, dolor error rem.</p>
+							<div class="skill">
+								<p align="left">BRANDING</p>
+								<p align="right">80%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill1">|</div>
+							</div>
+							<div class="skill">
+								<p align="left">WEB DESIGN</p>
+								<p align="right">65%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill2">|</div>
+							</div>
+							<div class="skill">
+								<p align="left">USER INTERFACE</p>
+								<p align="right">75%</p>
+							</div>
+							<div class="container" align="right">
+								<div class="information skill3">|</div>
+							</div>
+						</div>
+					</div>
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+						<span class="dot" onclick="currentSlide(3)"></span> 
+					</div>
+				</div>		
+			</div>
+			<div class="team_footer">
+				<h1>Already Loved Us? Let's talk!</h1>
+				<a href=""><p>Contact Us</p></a>
+			</div>
+		</div>
+
 	</main>
 </body>
 </html>
