@@ -20,7 +20,7 @@ h2{
 	color: #000;
 }
 p{
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
 body{
 	font-family: 'Quicksand', sans-serif;
@@ -301,10 +301,24 @@ main .main_about{
 	font-size: 12px;
 }
 .team_slider_info{
-	display: flex;
+	display: none;
 }
 .fade{
 	display: flex;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 .container{
 	width: 50%;
