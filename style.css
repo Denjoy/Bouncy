@@ -13,7 +13,7 @@ li{
 }
 h1{
 	padding-bottom: 25px;
-	color: #000;
+	color: ;
 }
 h2{
 	padding-bottom: 25px;
@@ -125,6 +125,9 @@ main .main_about{
 .details_button img{
 	margin: 15px;
 }
+.about_title{
+	margin:0 10%;
+}
 .about_bottom{
 	display: flex;
 	width: 75%;
@@ -139,7 +142,6 @@ main .main_about{
 }
 .right_side{
 	margin-left: 20%;
-	margin-top: 35px; 
 }
 .main_featured{
 	padding-top: 80px;
